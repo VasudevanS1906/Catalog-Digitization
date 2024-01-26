@@ -1,13 +1,26 @@
+** Catalog Digitization**
 A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
 
 Scope :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
 Functionalities :- The project is divided into eight different core functionalities each of which is a potential module. 
-Module 1 – Catalog digitisation in the form of text is achieved in this module . It receives the input from the user in text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc.,
-Module 2 - Catalog digitization in the form of indic languages text is achieved in this module . It receives the input from the user in their respective indic languaes as text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
-Module 3 - Catalog digitization in the form of voice(audio) is achieved in this module . It receives the input from the user in the audio format and converts it as text from suing Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
-Module 4 - Catalog digitization in the form of indic languages of voice(audio) is achieved in this module . It receives the input from the user in their respective indic languaes as audio(voice) from & converts it to text suing Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
-Module 5 - Catalog digitization in the form of images is achieved in this module . It receives the input from the user in the image format and converts it to text form using Optical Character Recognition(OCR) saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
-Module 6 - Catalog digitization in the form of combination of all three (image , voice and text) is achieved in this module . For example ,It receives the input from the user  for product image & anme in image format , description in voice format and price in text fromat and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
+**Module 1**
+** Text**
+– Catalog digitisation in the form of text is achieved in this module . It receives the input from the user in text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc.,
+**Module 2**
+**Text Indic**
+- Catalog digitization in the form of indic languages text is achieved in this module . It receives the input from the user in their respective indic languaes as text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
+**Module 3**
+**Voice Indic**
+- Catalog digitization in the form of voice(audio) is achieved in this module . It receives the input from the user in the audio format and converts it as text from suing Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
+**Module 4**
+**Voice Indic**
+- Catalog digitization in the form of indic languages of voice(audio) is achieved in this module . It receives the input from the user in their respective indic languaes as audio(voice) from & converts it to text suing Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
+**Module 5**
+**Image**
+- Catalog digitization in the form of images is achieved in this module . It receives the input from the user in the image format and converts it to text form using Optical Character Recognition(OCR) saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
+**Module 6**
+**Combination of all 3**
+- Catalog digitization in the form of combination of all three (image , voice and text) is achieved in this module . For example ,It receives the input from the user  for product image & anme in image format , description in voice format and price in text fromat and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 Module 7 –Here we can view the catalog from a lis of previously created files & see the results of digitilization of our catalog.
 Module 8 – The mechanism of throughput digitization can be done by finding out the active users %. Active usrs are the people who visit the website and digitize the catalog . While total users are the toal no of people who have visited the project . (Active users/total users)*100 will give you the active users%
 Dependencies :- the 7th and 8th module are interdependent on the first 6 modules . While the first 6 modules are interdependent on each other
