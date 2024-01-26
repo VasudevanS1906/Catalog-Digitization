@@ -1,10 +1,10 @@
-** Catalog Digitization**
+**Catalog Digitization**
 A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
 
 Scope :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
 Functionalities :- The project is divided into eight different core functionalities each of which is a potential module. 
 **Module 1**
-** Text**
+**Text**
 – Catalog digitisation in the form of text is achieved in this module . It receives the input from the user in text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc.,
 **Module 2**
 **Text Indic**
