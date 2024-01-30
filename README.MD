@@ -50,7 +50,7 @@ successfully in the database. Test case no.7 is assessed using hoow it can retri
 Database and show it to the user . Test case no.8 is evaluated using how it can measure the
 throughput of digitization by figuring out the total time taken for digitizing the total number of products.   
 
-https://github.com/VasudevanS1906/Catalog-Digitization/blob/main/cd_logo.png
-https://github.com/VasudevanS1906/Catalog-Digitization/blob/main/cat-digi-modular-arch.png
+![Screenshot](cd_logo.png)
+![Screenshot](cat-digi-modular-arch.png)
 
 
