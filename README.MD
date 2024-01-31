@@ -52,5 +52,6 @@ throughput of digitization by figuring out the total time taken for digitizing t
 
 ![Screenshot] images/cd_logo.png
 ![Screenshot] images/cat-digi-modular-arch.png
+![Screenshot] https://github.com/VasudevanS1906/Catalog-Digitization/blob/main/images/cat-digi-modular-arch.png
 
 
