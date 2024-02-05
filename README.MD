@@ -7,6 +7,7 @@ Functionalities :- The project is divided into eight different core functionalit
 **Module 1**
 
 **Text**
+
 - Catalog digitisation in the form of text is achieved in this module . It receives the input from the user in text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc.,
 
 **Module 2**
