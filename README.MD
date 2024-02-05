@@ -17,7 +17,7 @@ Functionalities :- The project is divided into eight different core functionalit
 
 **Module 3**
 
-**Voice Indic**
+**Voice**
 - Catalog digitization in the form of voice(audio) is achieved in this module . It receives the input from the user in the audio format and converts it as text from suing Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 
 **Module 4**
