@@ -1,9 +1,5 @@
-import random
-import string
-import sys
-import json
-from PIL import Image
-import numpy
+from import_modules import *
+
 print("BAGIT CATALOG DIGITIZATION")
 cat = raw_input("1-Digitization,2-View Catalog \n")
 
@@ -11,7 +7,7 @@ if cat == "1" :
     print("Digitization")
     digi = raw_input("1-text,2-text indic,3-voice,4-voice indic,5-image,6-hybrid \n ")
     if digi == "1" :
-        import time
+        
         t0 = time.time()
         print("1-text")
         s_id = raw_input("enter sku id \n")
@@ -56,10 +52,10 @@ if cat == "1" :
 
         
     elif digi == "2" :
-        import time
+        
         t0 = time.time()
         print("2-text indic")
-        from translate import Translator
+        
         #print("\nINDIAN LANGUAGE TRANSLATOR\n")
         print("lang_code language \n en English(India) \n gu-IN Gujarati(India) \n hi-IN Hindi(India) \n kn-IN Kannada(India) \n kok-IN Konkani(India) \n mr-IN Marathi(India) \n pa-IN Punjabi(India) \n sa-IN Sanskrit(India) \n ta-IN Tamil(India) \n te-IN Telugu(India)")
         say_lang=raw_input("\nEnter the source language :")
@@ -140,13 +136,10 @@ if cat == "1" :
 
         
     elif digi == "3" :
-        import time
+        
         t0 = time.time()
         print("3-voice")
-        from gtts import gTTS
-        from playsound import playsound 
-        import os
-        import urllib3
+        
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         #print("lang_code language \n en English(India) \n gu-IN Gujarati(India) \n hi-IN Hindi(India) \n kn-IN Kannada(India) \n kok-IN Konkani(India) \n mr-IN Marathi(India) \n pa-IN Punjabi(India) \n sa-IN Sanskrit(India) \n ta-IN Tamil(India) \n te-IN Telugu(India)")
         #say_lang=raw_input("\nEnter the source language :")
@@ -218,15 +211,10 @@ if cat == "1" :
         print("No. of products that can be digitised per day is",str(multi))
         
     elif digi == "4" :
-        import time
+        
         t0 = time.time()
         print("4-voice indic")
-        from translate import Translator
-        from urlparse import urlparse
-        from gtts import gTTS
-        from playsound import playsound 
-        import os
-        import urllib3
+        
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         #print("\nINDIAN LANGUAGE TRANSLATOR\n")
         print("lang_code language \n en English(India) \n gu-IN Gujarati(India) \n hi-IN Hindi(India) \n kn-IN Kannada(India) \n kok-IN Konkani(India) \n mr-IN Marathi(India) \n pa-IN Punjabi(India) \n sa-IN Sanskrit(India) \n ta-IN Tamil(India) \n te-IN Telugu(India)")
@@ -304,11 +292,10 @@ if cat == "1" :
         print("No. of products that can be digitised per day is",str(multi))
         
     elif digi == "5" :
-        import time
+        
         t0 = time.time()
         print("5-image")
-        from PIL import Image
-        import pytesseract
+        
         pytesseract.pytesseract.tesseract_cmd = r'C:\Python27\tesseract.exe'  # your path may be different
         
         s_id = raw_input("enter sku id \n")
@@ -349,17 +336,12 @@ if cat == "1" :
         print("No. of products that can be digitised per day is",str(multi)) 
 
     else :
-        import time
+        
         t0 = time.time()
         print("6-hybrid -- combination of text,text indic,image,voice & voice indic")
-        from gtts import gTTS
-        from playsound import playsound 
-        import os
-        import urllib3
+        
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        from translate import Translator
-        from PIL import Image
-        import pytesseract
+        
         pytesseract.pytesseract.tesseract_cmd = r'C:\Python27\tesseract.exe'
         
         s_id = raw_input("enter sku id \n")        
@@ -437,9 +419,7 @@ if cat == "1" :
 
 elif cat == "2" :
     print("View catalog")
-    import glob
-    import os
-    from bs4 import BeautifulSoup
+    
 
     for filename in glob.glob('*txt'):
         print(filename)
