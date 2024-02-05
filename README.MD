@@ -3,10 +3,14 @@ A catalogue is the best option if we want a thorough explanation of our company'
 
 Scope :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
 Functionalities :- The project is divided into eight different core functionalities each of which is a potential module. 
+
 **Module 1**
+
 **Text**
 – Catalog digitisation in the form of text is achieved in this module . It receives the input from the user in text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc.,
+
 **Module 2**
+
 **Text Indic**
 - Catalog digitization in the form of indic languages text is achieved in this module . It receives the input from the user in their respective indic languaes as text from and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 **Module 3**
