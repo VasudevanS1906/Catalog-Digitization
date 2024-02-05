@@ -1,7 +1,7 @@
 **BAGIT Catalog Digitization**
 A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
 
-Scope :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
+**Scope** :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
 Functionalities :- The project is divided into eight different core functionalities each of which is a potential module. 
 
 **Module 1**
@@ -58,7 +58,9 @@ Each module’s behavior is unique as it receives request from user it accepst t
 
 Customization deployment for the proposed solution of catalogue digitization is done using a 
 Live Web App
+
 Programming Language – **Python 2.7.18**
+
 Database – **Google Firebase 10.7.1**
 
 **The eight test cases** required for the catalog digitisation are as follows : 
