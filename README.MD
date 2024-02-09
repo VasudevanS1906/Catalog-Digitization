@@ -82,6 +82,7 @@ Test case no.8 is evaluated using how it can measure the
 **throughput of digitization by figuring out the total time taken for digitizing the total number of products.**   
 
 ![Screenshot] https://github.com/VasudevanS1906/Catalog-Digitization/blob/main/cat-digi-modular-arch.png
+
 ![Screenshot] https://github.com/VasudevanS1906/Catalog-Digitization/blob/main/cd_logo.png
 
 
