@@ -81,8 +81,8 @@ Database and show it to the user .
 Test case no.8 is evaluated using how it can measure the
 **throughput of digitization by figuring out the total time taken for digitizing the total number of products.**   
 
-![Screenshot] cat-digi-modular-arch.png
+![Screenshot] (cat-digi-modular-arch.png)
 
-![Screenshot] cd_logo.png
+![Screenshot] (cd_logo.png)
 
 
