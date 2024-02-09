@@ -83,6 +83,8 @@ Test case no.8 is evaluated using how it can measure the
 
 ![Screenshot] (cat-digi-modular-arch.png)
 
+
+
 ![Screenshot] (cd_logo.png)
 
 
