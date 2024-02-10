@@ -45,9 +45,9 @@ Follow these simple steps to get started with our Catalog Digitization tool:
 
 **Clone the Repository**:
 
-### git clone https://github.com/your-username/catalog-digitization.git
+## git clone https://github.com/your-username/catalog-digitization.git
 
-### cd catalog-digitization
+## cd catalog-digitization
 
 # Modules 
 
