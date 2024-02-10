@@ -17,6 +17,8 @@ The demo video of the results are attached below,
 
 The complete video with all the test links has been uploaded to **YOUTUBE** and the link is as follows,
 
+https://www.youtube.com/watch?v=EsMQC_ZSMaA
+
 # News 
 
 - Currently the project has been implemented in Python 2.7 IDLE , by using Django framework it will be deployed in AWS as a website soon.
@@ -170,15 +172,12 @@ Each digitized data is encrypted with **AES-256** algorithm to encrypt the data 
  **Web Framework** - Django 1.11.2
 
 
-# Usage
-
 # Under Deployment
 
 # Share with the community
 
 If you find this project interesting or helpful, don't hesitate to share with your community! Let's learn and grow together! 
 
-# Acknowledgemnts
 
 # Contribution
 
