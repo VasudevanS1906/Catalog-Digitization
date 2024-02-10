@@ -13,6 +13,8 @@ A catalogue is the best option if we want a thorough explanation of our company'
 
 The demo video of the results are attached below, 
 
+[![Watch the video](demo_video.mp4)
+
 # Full Video - Youtube Link 
 
 The complete video with all the test links has been uploaded to **YOUTUBE** and the link is as follows,
@@ -174,6 +176,9 @@ Each digitized data is encrypted with **AES-256** algorithm to encrypt the data 
 
 # Under Deployment
 
+- A completely functional website launched utilising the Django and AWS framework.
+
+
 # Share with the community
 
 If you find this project interesting or helpful, don't hesitate to share with your community! Let's learn and grow together! 
@@ -183,11 +188,10 @@ If you find this project interesting or helpful, don't hesitate to share with yo
 
 We welcome contributions from the community! Whether you're a seasoned developer, a data science enthusiast, or a domain expert, your insights and expertise can enhance our project.
 
-# License
 
 # Conclusion 
 
-In this magical journey, we’ve crafted a robust solution for Digitizing catalogue. The model, a beacon of performance, awaits those delving into the enchanting world of Python.
+In this project, we’ve developed a robust solution for Digitizing catalogue. The model, a beacon of performance, awaits those go into the beautiful world of Python.
 
 
 
