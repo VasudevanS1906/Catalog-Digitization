@@ -71,7 +71,7 @@ The workflow diagram for the project is picturized as follows,
 
 – The mechanism of throughput digitization can be done by finding out the speed with which individual products are digitized . After the result of each module code is added to print the result of throughput of digitization in each module in the unit of seconds and also calculating the total number of products that can be digitized in a day.The throughput of digitization can be found out by using the formula , 
         
-        ### Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
+        ## Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
 
 **Dependencies** :- The 7th and 8th module are interdependent on the first 6 modules . While the first 6 modules are interdependent on each other
 
