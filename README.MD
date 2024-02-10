@@ -21,7 +21,17 @@ The complete video with all the test links has been uploaded to **YOUTUBE** and 
 
 - Currently the project has been implemented in Python 2.7 IDLE , by using Django framework it will be deployed in AWS as a website soon.
 
-# Features of this model
+# Prerequisite
+
+1.Install the Python 2.7 & Django web framework
+
+2.Understanding of translation and playsound functions of gTTS(Google Text To Speech) library.
+
+3.Familiarity with optical Character Recognition(OCR)
+
+4.Knowledge of building models with OCR using PyTesseract
+
+5.Understanding Catalog Digitization using Text,Audio & Image formats.
 
 # How to Install
 
@@ -154,21 +164,11 @@ Each indivual users are required to create an username and their passwords are h
 Each digitized data is encrypted with **AES-256** algorithm to encrypt the data into 128 bits. To encrypt the data the Users SKU ID is hashed with MD5 algorithm which is then used as a key for AES-256 algorithm. The final encrypted data is stored in the database.
 
 # Tech Stack
- Python 2.7.18
- Django 1.11.2
 
+ **Language** - Python 2.7.18
 
-# Team Information
+ **Web Framework** - Django 1.11.2
 
-This project is submitted for **BUILD FOR BHARAT HACKATHON 2024** 
-
-TEAM NAME - TEAM MARUTI
-
-TEAM LEADER NAME :- VASUDEVAN SWORNAMPILLAI
-
-PROBLEM STATEMENT CATEGORY :- SCALABLE SOLUTION
-
-PROBLEM STATEMENT :- CATALOG DIGITIZATION
 
 # Usage
 
@@ -176,11 +176,19 @@ PROBLEM STATEMENT :- CATALOG DIGITIZATION
 
 # Share with the community
 
+If you find this project interesting or helpful, don't hesitate to share with your community! Let's learn and grow together! 
+
 # Acknowledgemnts
 
 # Contribution
 
+We welcome contributions from the community! Whether you're a seasoned developer, a data science enthusiast, or a domain expert, your insights and expertise can enhance our project.
+
 # License
+
+# Conclusion 
+
+In this magical journey, we’ve crafted a robust solution for Digitizing catalogue. The model, a beacon of performance, awaits those delving into the enchanting world of Python.
 
 
 
