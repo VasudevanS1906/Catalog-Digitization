@@ -45,9 +45,9 @@ Follow these simple steps to get started with our Catalog Digitization tool:
 
 **Clone the Repository**:
 
-## git clone https://github.com/your-username/catalog-digitization.git
+                ### git clone https://github.com/your-username/catalog-digitization.git
 
-## cd catalog-digitization
+                ### cd catalog-digitization
 
 # Modules 
 
@@ -111,7 +111,7 @@ The workflow diagram for the project is picturized as follows,
 
 – The mechanism of throughput digitization can be done by finding out the speed with which individual products are digitized . After the result of each module code is added to print the result of throughput of digitization in each module in the unit of seconds and also calculating the total number of products that can be digitized in a day.The throughput of digitization can be found out by using the formula , 
         
-        ## Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
+## Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
 
 # Additional Features of this model
 
