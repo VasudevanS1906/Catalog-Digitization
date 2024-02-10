@@ -1,3 +1,4 @@
+![Screenshot](cd_logo.png)
 **BAGIT Catalog Digitization**
 A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
 
@@ -85,6 +86,6 @@ Test case no.8 is evaluated using how it can measure the
 
 
 
-![Screenshot](cd_logo.png)
+
 
 
