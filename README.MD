@@ -9,6 +9,24 @@ A catalogue is the best option if we want a thorough explanation of our company'
 
 **Functionalities** :- The project is divided into eight different core functionalities each of which is a potential module. 
 
+# Modules 
+
+The project has been divided into 8 modules which are as follows, 
+1. Text mode digitization
+2. Text Indic mode digitization
+3. Voice mode digitization
+4. Voice indic mode digitization
+5. Image mode digitization
+6. Combination of all 3(text,voice & image) mode digitization
+7. View Digitized Catalogs
+8. Measuring the Throughput of Digitization
+
+# Workflow Diagram
+
+The workflow diagram for the project is picturized as follows,
+
+![Screenshot](cat-digi-modular-arch.png)
+
 # Module 1
 
 **Text**
@@ -101,7 +119,7 @@ Database and show it to the user .
 Test case no.8 is evaluated using how it can measure the
 **throughput of digitization by figuring out the total time taken for digitizing the total number of products.**   
 
-![Screenshot](cat-digi-modular-arch.png)
+
 
 
 
