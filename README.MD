@@ -1,7 +1,7 @@
 ![Screenshot](cd_logo.png)
 
 
-#BAGIT Catalog Digitization
+# BAGIT Catalog Digitization
 
 A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
 
@@ -9,51 +9,51 @@ A catalogue is the best option if we want a thorough explanation of our company'
 
 **Functionalities** :- The project is divided into eight different core functionalities each of which is a potential module. 
 
-#Module 1
+# Module 1
 
 **Text**
 
 - Catalog digitisation in the form of text is achieved in this module . It receives the input from the user in text form and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc.,
 
-#Module 2
+# Module 2
 
 **Text Indic**
 
 - Catalog digitization in the form of indic languages text is achieved in this module . It receives the input from the user in their respective indic languaes as text form and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 
-#Module 3
+# Module 3
 
 **Voice**
 
 - Catalog digitization in the form of voice(audio) is achieved in this module . It receives the input from the user in the audio format and converts it as text by using Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 
-#Module 4
+# Module 4
 
 **Voice Indic**
 
 - Catalog digitization in the form of indic languages of voice(audio) is achieved in this module . It receives the input from the user in their respective indic languaes as audio(voice) form & converts it into text using Speech-To-Text and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 
-#Module 5
+# Module 5
 
 **Image**
 
 - Catalog digitization in the form of images is achieved in this module . It receives the input from the user in the image format and converts it to text form using Optical Character Recognition(OCR) saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 
-#Module 6
+# Module 6
 
 **Combination of all 3**
 
 - Catalog digitization in the form of combination of all three (image , voice and text) is achieved in this module . For example ,It receives the input from the user  for product image & name in image format , description in voice format and price in text fromat and saves them in the database and digitizes the catalog with the use of parameters like SKU id,product name,brand,colour ,price,etc., 
 
-#Module 7 
+# Module 7 
 
 –Here we can view the catalog from a list of previously created files & see the results of digitilization of our catalog.
 
-#Module 8 
+# Module 8 
 
 – The mechanism of throughput digitization can be done by finding out the speed with which individual products are digitized . After the result of each module code is added to print the result of throughput of digitization in each module in the unit of seconds and also calculating the total number of products that can be digitized in a day.The throughput of digitization can be found out by using the formula , 
         
-        ###Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
+        ### Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
 
 **Dependencies** :- The 7th and 8th module are interdependent on the first 6 modules . While the first 6 modules are interdependent on each other
 
@@ -82,7 +82,7 @@ Programming Language – **Python 2.7.18**
 
 Database – **Google Firebase 10.7.1**
 
-#The Test Cases
+# The Test Cases
 
 **The eight test cases** required for the catalog digitisation are as follows : 
 
