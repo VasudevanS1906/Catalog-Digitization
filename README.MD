@@ -194,10 +194,6 @@ Each digitized data is encrypted with **AES-256** algorithm to encrypt the data 
 If you find this project interesting or helpful, don't hesitate to share with your community! Let's learn and grow together! 
 
 
-# Contribution
-
-We welcome contributions from the community! Whether you're a seasoned developer, a data science enthusiast, or a domain expert, your insights and expertise can enhance our project.
-
 
 # Conclusion 
 
