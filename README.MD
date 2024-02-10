@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=EsMQC_ZSMaA
 
 2.Understanding of translation and playsound functions of gTTS(Google Text To Speech) library.
 
-3.Familiarity with optical Character Recognition(OCR)
+3.Familiarity with Optical Character Recognition(OCR)
 
 4.Knowledge of building models with OCR using PyTesseract
 
