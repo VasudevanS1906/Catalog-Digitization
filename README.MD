@@ -1,6 +1,14 @@
 ![Screenshot](cd_logo.png)
 
 
+# BAGIT Catalog Digitization
+
+A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
+
+**Scope** :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
+
+**Functionalities** :- The project is divided into eight different core functionalities each of which is a potential module. 
+
 # Demo Video 
 
 The demo video of the results are attached below, 
@@ -9,14 +17,13 @@ The demo video of the results are attached below,
 
 The complete video with all the test links has been uploaded to **YOUTUBE** and the link is as follows,
 
+# News 
 
-# BAGIT Catalog Digitization
+- Currently the project has been implemented in Python 2.7 IDLE , and by using Django framework it will be deployed in AWS as a website soon.
 
-A catalogue is the best option if we want a thorough explanation of our company's goods and services. It is a very helpful advertising tool that has a lot of potential to encourage our clients to buy products or hire services.Still, some businesses use hardcopy catalogues as part of their strategy, and they continue to yield positive outcomes. However, the scope of this kind of publication will constantly be expanded by developing a digital catalogue.
+# Features of this model
 
-**Scope** :- The scope of this project is to digitize catalogs using text,image and audio interfaces , while also accomplishing the mechanism for measuring the throughput of digitization.
-
-**Functionalities** :- The project is divided into eight different core functionalities each of which is a potential module. 
+# How to Install
 
 # Modules 
 
@@ -82,6 +89,8 @@ The workflow diagram for the project is picturized as follows,
         
         ## Throughput of digitization = (Total number of products to be digitized)/(Time taken to digitize the total products)
 
+# Additional Features of this model
+
 **Dependencies** :- The 7th and 8th module are interdependent on the first 6 modules . While the first 6 modules are interdependent on each other
 
 **Feasibilty** :- While the first 6 modules are independent of each other , the 7th and 8th module depends on the first 6 modules. 
@@ -102,14 +111,18 @@ Each module’s behavior is unique as it receives request from user it accepst t
 
 **Security** – The retail data are encrypted with AES-256 standard encryption algorithm which encrypts your datas with a key.The key is md5 hashed(since key input size is 128 bits ) . So the modules deliver transactional guarantees for the retail sellers who are digitizing their catalog of products in retail industry.
 
+# Deployment
+
 Customization deployment for the proposed solution of catalogue digitization is done using a 
 Live Web App
 
 Programming Language – **Python 2.7.18**
 
-Database – **Google Firebase 10.7.1**
+Web Freamework - **Django 1.11**
 
-# The Test Cases
+Database – **AMazon Web Services(AWS)**
+
+# The Test Cases & Results
 
 **The eight test cases** required for the catalog digitisation are as follows : 
 
@@ -127,6 +140,42 @@ successfully in the database. Test case no.7 is assessed using hoow it can retri
 Database and show it to the user . 
 Test case no.8 is evaluated using how it can measure the
 **throughput of digitization by figuring out the total time taken for digitizing the total number of products.**   
+
+The results of the  eight test cases has been attached below in the form of a collage,
+
+![Screenshot](test_cases_results_collage.jpeg)
+
+# User Authentication
+
+Each indivual users are required to create an username and their passwords are hashed with **BLAKE-512** and stored in the database. 
+
+# Data Storage Algorithm
+
+Each digitized data is encrypted with AES-256 algorithm to encrypt the data into 128 bits. To encrypt the data the Users SKU ID is hashed with MD5 algorithm which is then used as a key for AES-256 algorithm. The final encrypted data is stored in the database.
+
+# Tech Stack
+ Python 2.7  
+(https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png)
+
+# Team Information
+
+This project is submitted for **BUILD FOR BHARAT HACKATHON 2024** 
+TEAM NAME - TEAM MARUTI
+TEAM LEADER NAME :- VASUDEVAN SWORNAMPILLAI
+PROBLEM STATEMENT CATEGORY :- SCALABLE SOLUTION
+PROBLEM STATEMENT :- CATALOG DIGITIZATION
+
+# Usage
+
+# Under Deployment
+
+# Share with the community
+
+# Acknowledgemnts
+
+# Contribution
+
+# License
 
 
 
