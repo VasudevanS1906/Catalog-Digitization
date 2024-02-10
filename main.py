@@ -61,9 +61,7 @@ if cat == "1" :
         say_lang=raw_input("\nEnter the source language :")
         convert_lang=raw_input("\nEnter the language you want to convert into")
         translator=Translator(from_lang = say_lang,to_lang=convert_lang)
-        #sentence=raw_input("\nENTER THE SENTENCE YOU WANT TO CONVERT INTO :")
-        #translation=translator.translate(sentence)
-        #print(translation)
+        
         pr_name = "enter product name"
         pr_id =  "enter product id"
         pr_price = "enter product price"
@@ -106,20 +104,10 @@ if cat == "1" :
         img.show()
         outfile = open("C:/Python27/" + ip_pid +".txt", "w")
         outfile.writelines(ip_image + '\n')
-        #result.writelines("\n".join(map(str, lines))) – 
-        #outfile.writelines("\n".join(map(str,pntmsg_tr_pn))
         outfile.writelines(ip_pn + '\n')
-        #outfile.writelines("\n".join(map(str,pntmsg_tr_pid))
-        #outfile.writelines(pntmsg_tr_pid +'\n')
         outfile.writelines(ip_pid + '\n')
-        #outfile.writelines("\n".join(map(str,pntmsg_tr_price))
-        #outfile.writelines(pntmsg_tr_price + '\n')
         outfile.writelines(ip_price + '\n')
-        #outfile.writelines("\n".join(map(str,pntmsg_tr_count))
-        #outfile.writelines(pntmsg_tr_count  + '\n')
         outfile.writelines(ip_count + '\n')
-        #outfile.writelines("\n".join(map(str,pntmsg_tr_image))
-        #outfile.writelines(pntmsg_tr_image + '\n')
         
         outfile.close()
         fle = open("C:/Python27/" + ip_pid +".txt", "r")
@@ -141,19 +129,6 @@ if cat == "1" :
         print("3-voice")
         
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        #print("lang_code language \n en English(India) \n gu-IN Gujarati(India) \n hi-IN Hindi(India) \n kn-IN Kannada(India) \n kok-IN Konkani(India) \n mr-IN Marathi(India) \n pa-IN Punjabi(India) \n sa-IN Sanskrit(India) \n ta-IN Tamil(India) \n te-IN Telugu(India)")
-        #say_lang=raw_input("\nEnter the source language :")
-        #convert_lang=raw_input("\nEnter the language you want to convert into")
-        #pr_name = "enter product name"
-        #pr_id =  "enter product id"
-        #pr_price = "enter product price"
-        #pr_image = "enter product image"
-        #pr_count = "enter total product count "
-        #tr_pn = translator.translate(pr_name)
-        #tr_pid = translator.translate(pr_id)
-        #tr_price = translator.translate(pr_price)
-        #tr_image = translator.translate(pr_image)
-        #tr_count = translator.translate(pr_count)
         language = 'en'
         s_id = "enter sku id \n"
         s_pce = "enter price \n"
@@ -164,7 +139,6 @@ if cat == "1" :
         obj_id.save('C:/Python27/id.mp3')
         playsound('C:/Python27/id.mp3') 
         ip_s_id = raw_input("enter sku id \n")
-        #os.system('mpg321 id.mp3')
         obj_pce = gTTS(text=s_pce, lang=language, slow=False) 
         obj_pce.save('C:/Python27/price.mp3')
         playsound('C:/Python27/price.mp3') 
@@ -221,9 +195,6 @@ if cat == "1" :
         say_lang=raw_input("\nEnter the source language :")
         con_language=raw_input("\nEnter the language you want to convert into")
         translator=Translator(from_lang = say_lang,to_lang=con_language)
-        #sentence=raw_input("\nENTER THE SENTENCE YOU WANT TO CONVERT INTO :")
-        #translation=translator.translate(sentence)
-        #print(translation)
         pr_name = "enter product name"
         pr_id =  "enter product id"
         pr_price = "enter product price"
@@ -248,22 +219,18 @@ if cat == "1" :
         obj_pce.save('C:/Python27/price.mp3')
         playsound('C:/Python27/price.mp3')
         ip_price = raw_input(tr_price)
-        #ip_s_pce = raw_input("enter price \n")
         obj_nme = gTTS(text=cl_name, lang=language, slow=False) 
         obj_nme.save('C:/Python27/name.mp3')
         playsound('C:/Python27/name.mp3')
         ip_pn = raw_input(tr_pn)
-        #ip_s_nme = raw_input("enter product name \n")
         obj_prdct_img = gTTS(text=cl_image, lang=language, slow=False) 
         obj_prdct_img.save('C:/Python27/productimage.mp3')
         playsound('C:/Python27/productimage.mp3')
         ip_image = raw_input(tr_image)
-        #ip_s_prdct_img = raw_input("enter product image \n")
         obj_prdct_count = gTTS(text=cl_count, lang=language, slow=False) 
         obj_prdct_count.save('C:/Python27/productcount.mp3')
         playsound('C:/Python27/productcount.mp3')
         ip_count = raw_input(tr_count)
-        #ip_s_prdct_count = raw_input("enter product count \n")
                 
         print ("the product name is",ip_pn)
         print ("the sku id is",ip_pid)
@@ -345,7 +312,6 @@ if cat == "1" :
         pytesseract.pytesseract.tesseract_cmd = r'C:\Python27\tesseract.exe'
         
         s_id = raw_input("enter sku id \n")        
-        #print("\nINDIAN LANGUAGE TRANSLATOR\n")
         print("lang_code language \n en English(India) \n gu-IN Gujarati(India) \n hi-IN Hindi(India) \n kn-IN Kannada(India) \n kok-IN Konkani(India) \n mr-IN Marathi(India) \n pa-IN Punjabi(India) \n sa-IN Sanskrit(India) \n ta-IN Tamil(India) \n te-IN Telugu(India)")
         say_lang=raw_input("\nEnter the source language :")
         convert_lang=raw_input("\nEnter the language you want to convert into")
