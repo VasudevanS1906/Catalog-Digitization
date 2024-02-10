@@ -19,7 +19,7 @@ The complete video with all the test links has been uploaded to **YOUTUBE** and 
 
 # News 
 
-- Currently the project has been implemented in Python 2.7 IDLE , and by using Django framework it will be deployed in AWS as a website soon.
+- Currently the project has been implemented in Python 2.7 IDLE , by using Django framework it will be deployed in AWS as a website soon.
 
 # Features of this model
 
@@ -118,9 +118,9 @@ Live Web App
 
 Programming Language – **Python 2.7.18**
 
-Web Freamework - **Django 1.11**
+Web Freamework - **Django 1.11.2**
 
-Database – **AMazon Web Services(AWS)**
+Database – **Amazon Web Services(AWS)**
 
 # The Test Cases & Results
 
@@ -143,7 +143,7 @@ Test case no.8 is evaluated using how it can measure the
 
 The results of the  eight test cases has been attached below in the form of a collage,
 
-![Screenshot](test_cases_results_collage.jpeg)
+![Screenshot](test_cases_results_collage.jpg)
 
 # User Authentication
 
@@ -151,18 +151,23 @@ Each indivual users are required to create an username and their passwords are h
 
 # Data Storage Algorithm
 
-Each digitized data is encrypted with AES-256 algorithm to encrypt the data into 128 bits. To encrypt the data the Users SKU ID is hashed with MD5 algorithm which is then used as a key for AES-256 algorithm. The final encrypted data is stored in the database.
+Each digitized data is encrypted with **AES-256** algorithm to encrypt the data into 128 bits. To encrypt the data the Users SKU ID is hashed with MD5 algorithm which is then used as a key for AES-256 algorithm. The final encrypted data is stored in the database.
 
 # Tech Stack
- Python 2.7  
-(https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png)
+ Python 2.7.18
+ Django 1.11.2
+
 
 # Team Information
 
 This project is submitted for **BUILD FOR BHARAT HACKATHON 2024** 
+
 TEAM NAME - TEAM MARUTI
+
 TEAM LEADER NAME :- VASUDEVAN SWORNAMPILLAI
+
 PROBLEM STATEMENT CATEGORY :- SCALABLE SOLUTION
+
 PROBLEM STATEMENT :- CATALOG DIGITIZATION
 
 # Usage
