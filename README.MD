@@ -13,7 +13,7 @@ A catalogue is the best option if we want a thorough explanation of our company'
 
 The demo video of the results are attached below, 
 
-[![Watch the video](demo_video.mp4)
+![Watch the video](demo_video.mp4)
 
 # Full Video - Youtube Link 
 
