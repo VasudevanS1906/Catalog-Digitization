@@ -41,6 +41,14 @@ https://www.youtube.com/watch?v=EsMQC_ZSMaA
 
 # How to Install
 
+Follow these simple steps to get started with our Catalog Digitization tool:
+
+**Clone the Repository**:
+
+git clone https://github.com/your-username/catalog-digitization.git
+
+cd catalog-digitization
+
 # Modules 
 
 The project has been divided into 8 modules which are as follows, 
